@@ -6,9 +6,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 // Config file will require no XML file to configure our spring container...
-@Configuration
-@PropertySource("classpath:sport.properties")
 //@ComponentScan("com.marcos.demo.main")
+@Configuration
 public class SportConfig
 {
 	@Bean
